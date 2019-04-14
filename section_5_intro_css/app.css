@@ -1,8 +1,16 @@
+body {
+    /* background: url("https://previews.123rf.com/images/inarik/inarik1602/inarik160200003/51998395-wood-grain-texture-white-wooden-plank-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background: pink;
+}
 h1 {
     color: #2042ea;
+    border: 2px solid rgba(200, 80, 95, 1);
 }
 h4 {
-    color: rgb(100, 0, 100)
+    color: rgb(100, 0, 100);
+    background: rgb(255, 100, 80);
 }
 li {
     color: rgba(11, 99, 150, .9)
