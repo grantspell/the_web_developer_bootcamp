@@ -1,0 +1,29 @@
+/* Type Selectors : least specific */
+body {
+    color: red;
+}
+ul {
+    color: blue;
+}
+li {
+    color: orange;
+}
+p {
+    color: green;
+}
+li + a {
+    /* more specific than just a single type selector */
+}
+
+/* Class, Attribute, and Pseudo-Class Selectors : specific */
+.highlight {
+    color: yellow;
+}
+input[type="text"] {
+
+}
+
+/* ID Selectors : most specific */
+#special {
+    color: pink;
+}
