@@ -1,0 +1,43 @@
+/* Element */
+li {
+
+}
+
+/* class */
+.hello {
+    
+}
+
+/* id */
+#name {
+
+}
+
+/* Star : selects all elements on page */
+* {
+    border: 1px solid lightgray;
+}
+
+/* Descendant Selectors */
+li a { /* selects all <a> inside <li>, can also select div/class like ```li .className/#idName``` */
+    color: red;
+}
+
+/* Adjacent Selector : selects specific elements that come after another specified element */
+h3 + ul {
+    border: 4px solid red;
+}
+
+/* Attribute Selectors */
+a[href="http://www.google.com"] {
+    background: blue;
+}
+/* input[type="checkbox"] {
+    background: blue;
+} */
+
+/* nth of type */
+li:nth-of-type(even) {
+    background: purple;
+    color: white;
+}
