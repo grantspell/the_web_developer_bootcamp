@@ -48,16 +48,16 @@ div p {
 
 /*Make only inputs with type 'text' have a gray background*/
 input[type="text"] {
-    background-color: grey;
+    background: grey;
 }
 
 /* Give both <p>'s inside the 3rd <div> a pink background*/
-div:nth-of-type(4) p{
+div:nth-of-type(3) p{
     background-color: pink;
 }
 
 /* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-div:nth-of-type(4) p:nth-of-type(2) {
+div:nth-of-type(3) p:nth-of-type(2) {
     border: 5px solid white;
 }
 
@@ -71,7 +71,7 @@ div:nth-of-type(3) em {
 /*You may need to research some other selectors and properties*/
 
 /*Make all "checked" checkboxes have a left margin of 50px(margin-left: 50px)*/
-:checked {
+input:checked {
     margin-left: 50px;
 }
 
@@ -81,7 +81,7 @@ label {
 }
 
 /*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
-#special::first-letter {
+#special:first-letter {
     color: green;
     font-size: 100px;
 }
