@@ -3,3 +3,13 @@ img {
     float: left;
     margin: 1.66%;
 }
+p {
+    font-family: 'Contrail One', cursive;
+    margin-left: 1.66%;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-bottom: 2px solid #F1F1F1;
+    width: 30%;
+    padding: 0 0 20px 0;
+}
