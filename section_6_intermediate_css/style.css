@@ -1,9 +1,9 @@
 /* font-family */
 p {
-    font-family: "Arial";
+    font-family: 'Roboto Slab', serif;
 }
 h1 {
-    font-family: "Georgia";
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 /* font-size */
@@ -21,8 +21,8 @@ p {
 }
 
 /* font-weight */
-p {
-    font-weight: bold;
+h1 {
+    font-weight: 800;
 }
 
 /* line-height */
