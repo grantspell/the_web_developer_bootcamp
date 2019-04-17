@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot');
+    src: url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.woff') format('woff'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('https://netdna.bootstrapcdn.com/bootstrap/3.0.0/fonts/glyphicons-halflings-regular.svg#glyphicons-halflingsregular') format('svg');
+}
+body {
+    background-image: url("https://www.gannett-cdn.com/-mm-/d3bc9872e03d6cba8eb92ac20551a49184451390/c=0-649-4786-3353/local/-/media/2018/07/25/USATODAY/USATODAY/636681385356586403-CAT-PHOTO.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+}
+#content {
+    text-align: center;
+    padding: 25% 0 0 0;
+    color: white;
+}
+hr {
+    width: 50rem;
+}
