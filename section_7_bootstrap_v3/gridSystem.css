@@ -1,9 +1,11 @@
-.pink {
-     background: pink;
-     border: 1px solid purple;
-}
 
 .green {
     background: green;
     border: 1px solid yellow;
+}
+
+.blue {
+    background: blue;
+    border: 1px solid pink;
+    height: 50px;
 }
