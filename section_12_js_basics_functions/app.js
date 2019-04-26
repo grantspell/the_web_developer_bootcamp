@@ -31,7 +31,7 @@ alert(factorial(num));
 var userInput = prompt("Please enter a kebab-cased string argument!")
 
 function kebabToSnake(userInput) {
-    var snakeCase = userInput.split("-").join("_").toLowerCase();
+    var snakeCase = userInput.replace(/-/g, "_").toLowerCase();
     return snakeCase;
 }
 
