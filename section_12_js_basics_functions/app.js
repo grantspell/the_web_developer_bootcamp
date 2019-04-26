@@ -4,11 +4,7 @@
 var num = prompt("Enter a number!");
 
 function isEven(num) {
-    if(num % 2 === 0) {
-        return true;
-    } else {
-        return false;
-    }
+    return num % 2 === 0;
 };
 
 alert(isEven(num));
@@ -17,15 +13,14 @@ alert(isEven(num));
 // factorial();
 // Write a function factorial() which takes a single numeric argument and returs the factorial of that number
 // var num = prompt("Enter a numer!");
-var factors = [];
+var num = prompt("Enter a whole digit number to determins its factorial!")
 
 function factorial(num) {
-    if(num == 0 || num == 1) 
-        return 1;
-    if(factors[num] > 0) 
-        return factors[num];
-    return factors[num] = factorial(num -1) * num;        
-    
+    var result = 1;
+    for(var i = 2; i <= num ; i++) {
+        result *= i;
+    }
+    return result;
 };
 
 alert(factorial(num));
